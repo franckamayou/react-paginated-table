@@ -1,0 +1,26 @@
+{
+  "name": "react-paginated-table",
+  "version": "1.0.0",
+  "description": "Paginated table built for react",
+  "main": "js/main.js",
+  "scripts": {
+    "babel": "mkdirp bin/js && babel es6 -d js --source-maps inline",
+    "compile": "tsc && npm run babel",
+    "install": "npm run compile"
+  },
+  "author": "Franck Kamayou",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash": "^4.16.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-cli": "^6.16.0",
+    "typescript": "^2.0.3"
+  }
+}
